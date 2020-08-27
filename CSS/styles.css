@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  position: relative;
+}
+
+.main_nav {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  background-color: #000;
+  padding-top: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: right;
+  margin-top: 14px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+a:link, a:visited {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-weight: normal;
+  display: block;
+  width: 145px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #000;
+  background-color: #fff;
+  font-weight: bold;
+  margin-right: 25px;
+  transition: margin-right .35s ease-out
+}
+
+.Jose1 {
+  height: 500px;
+  width: 50%;
+  background-image: url("../Images/Jose1.jpg");
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 75px;
+  color: #000000;
+  background-color: #000000;
+}
+
+.maintitle {
+  position: absolute;
+  top: 0;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 250%;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-style: italic;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.div4 {
+  height: 700px;
+  background-color: #fff;
+  color: #000000;
+}
+
+.div5 {
+  height: 700px;
+  background-color: #fff;
+  color: #000000;
+}
+
+.Rstones {
+  float: right;
+  padding-left: 15px;
+  margin-right: 30px;
+}
+
+.luna {
+  float: left;
+  padding-right: 15px;
+  margin-left: 30px;
+}
+
+.P1 {
+  text-align: justify;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 10px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 2em;
+}
+
+.P2 {
+  text-align: justify;
+  margin-right: 20px;
+  padding-left: 10px;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 2em;
+}
